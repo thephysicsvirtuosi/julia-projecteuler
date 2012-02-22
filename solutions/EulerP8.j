@@ -14,6 +14,6 @@ function main()
 	println("Largest is: ", largest)
 end
 
-tic()
-main()
-toc()
+
+println(@elapsed main())
+println(@elapsed main())

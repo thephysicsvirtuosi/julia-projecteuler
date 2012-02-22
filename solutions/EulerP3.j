@@ -30,7 +30,6 @@ function main()
 		return n
 	end
 
-	tic()
 	factors = {}
 
 	while N>1
@@ -41,8 +40,7 @@ function main()
 
 	println(factors)
 	println("The largest factor is: ",max(factors))
-	toc()
-
 end
 
-main()
+println(@elapsed main())
+println(@elapsed main())

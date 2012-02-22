@@ -1,4 +1,4 @@
-#Seventh problem
+#problem 10
 
 function erato(n)
 	P = [0,2:n]
@@ -11,9 +11,10 @@ function erato(n)
 	P = P[P != 0]
 end
 
+
 function main()
-	primes = erato(200000)
-	println("The 10,001st prime is $(primes[10001])")
+	total = sum(erato2(2000000))
+	println("Total is: ", total)
 end
 
 

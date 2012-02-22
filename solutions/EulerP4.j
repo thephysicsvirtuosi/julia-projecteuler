@@ -10,6 +10,5 @@ function main()
 	println("Largest palindrome: ", biggest)
 end
 
-tic()
-main()
-toc()
+println(@elapsed main())
+println(@elapsed main())

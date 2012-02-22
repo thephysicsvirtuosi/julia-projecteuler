@@ -1,5 +1,8 @@
 #Fifth problem
 
-tic()
-println("The answer is: ", lcm([1:20]...))
-toc()
+function main()
+	println("The answer is: ", lcm([1:20]...))
+end
+
+println(@elapsed main())
+println(@elapsed main())
